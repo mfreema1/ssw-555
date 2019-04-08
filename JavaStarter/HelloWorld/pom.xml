@@ -1,0 +1,23 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.world.hello</groupId>
+    <artifactId>HelloWorld</artifactId>
+    <version>1</version>
+
+    <!--  By default, Maven will set your project to use Java 1.5.
+      This isn't the Paleolithic era, so we'll use Java 1.8-->
+    <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+    <!--  All I need is JUnit  -->
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

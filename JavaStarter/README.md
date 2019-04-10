@@ -7,7 +7,7 @@ Maven and Gradle both suggest that you follow a predefined project structure to 
 
 We recommend the below folder structure for those using Maven:
 
-![Java project structure](https://github.com/mfreema1/ssw-555/img/java/project.png)
+![Java project structure](https://github.com/mfreema1/ssw-555/tree/master/img/java/project.png)
 
 Note that after `src/main/java`, you are free to define whatever packages you would like.
 

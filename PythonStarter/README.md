@@ -17,7 +17,7 @@ source env/bin/activate
 ```
 
 You should now see something like the below.  The parenthesis to the left indicate the name of the virtual environment we are in.  You should always activate the virtual environment before running your code or installing a dependency.
-![Venv terminal](https://github.com/mfreema1/ssw-555/img/python/venv.png)
+![Venv terminal](https://github.com/mfreema1/ssw-555/tree/master/img/python/venv.png)
 
 Note that many IDEs will detect and auto-activate virtual environments before they run -- a bonus!
 
@@ -47,7 +47,7 @@ If you install a dependency without updating your requirements.txt file, then yo
 
 Since we aren’t using a build management system, we have more freedom in how we design our folder structure.  We recommend something like the below:
 
-![Python project structure](https://github.com/mfreema1/ssw-555/img/python/project.png)
+![Python project structure](https://github.com/mfreema1/ssw-555/tree/master/img/python/project.png)
 
 These `__init__.py` files are empty files (nothing in them) that denote a Python package.  They will allow you to laterally import your user story logic into your test directory.
 

@@ -11,13 +11,20 @@
         <maven.compiler.source>1.8</maven.compiler.source>
     </properties>
 
-    <!--  All I need is JUnit  -->
+    <!--  JUnit for testing  -->
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Easy tables -->
+        <dependency>
+            <groupId>com.jakewharton.fliptables</groupId>
+            <artifactId>fliptables</artifactId>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
 </project>

@@ -41,16 +41,6 @@ Java is very different from Python, so here's a sneak-peek on the language:
 - This is an object-oriented language which derives much of its power from relationships between classes.  Strictly organizing code using classes and interfaces can make larger projects more predictable and easier to understand.
 - Java uses the collections framework to hold things like Maps, Lists, and Sets -- these act similarly to the dictionary, list, and other collection objects in Python.
 
-### For those Entering the Node(.js)
-JavaScript is its own little language entirely:
--  JavaScript used to be browser-only, but since the release of Node, has also become a server-side language.
--  Each version of Node.js, the most recent of which is 12, brings new syntactic elements and functionality.  Anything after 8 should be fine.
--  JavaScript has an extremely loose and unique syntax, which tends to polarize developers to it.
--  JavaScript uses lists and objects as its primary data types, but also includes other collections such as Sets.
-
-### But What About Ruby?
-We do offer a starter for Ruby, however we advise that you know what you're doing should you choose to use this language.  It is mainly here to serve as a challenge for those who are familiar with the other languages and are looking to learn something new.  If that sounds like you, rock on!
-
 ## Who's Travis?
 TravisCI is a continuous integration system that integrates directly with GitHub, which is where you'll be storing your projects.  Whenever you push code, Travis will run whatever tests you tell him to, which assures that your new changes have not broken any preexisting code.
 

@@ -2,6 +2,8 @@
 
 As you are all aware, we will be developing a linting system for a file format called GEDCOM, which is used to represent ancestry data.  This is a very hands-on project, so roll your sleeves up and prepare to get your hands dirty.  I am Mark, one of the graders of this course -- you can think of me as your safari guide, just without the Australian accent.  I'm sure you're excited to get started, so let's jump right in!
 
+This helpful resource was created by Mark Freeman who serves as the TA for CS/SSW 555.   It lays out a recommended directory structure that will help you to organize your team's code in a way that will be easier for your team to work on the project and for us to grade when we go looking for the code, automated test routines, and GEDCOM files for your team's submission.
+
 ## Expectations
 This is a Scrum simulation, which consists of two-week long sprints.  Every sprint, you must complete 2 user stories -- this includes implementing, unit testing, and demonstrating your logic.
 - __Implementation__ _(8 pts each)_: This is the writing of the user story itself.  It will usually be found in a file called something like `USXX.ext`, where `.ext` is defined by whichever programming language you are using.
